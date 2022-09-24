@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--My style-->
+    <link rel="stylesheet" href="style.css">
+    <title>Growpital Wallet</title>
+</head>
+<body>
+    <nav>
+        <a class="navbar-brand" href="#">Growpital</a>
+        <div class="navigation-items">
+            <a href="#" class="nav-item item1">Home</a>
+            <a href="#" class="nav-item item2">About</a>
+            <a href="#" class="nav-item item3">Service</a>
+            <a href="#" class="nav-item item4">Contact Us</a>
+        </div>
+        <div class="notification-user">
+            <a href="#" ><img class="notification-icon" src="icons/Bell_pin_light.svg" alt="notification"></a>
+            <a href="#" ><img class="user-icon" src="icons/user-icon.svg" alt="user-icon"></a>
+        </div>
+    </nav>
+
+    <section id="main">
+        <div class="transaction-block">
+            <a href=""><img   class="close" src="icons/close.svg" alt="close"></a>
+            <div class="first">
+                <p>Money added to wallet from bank account </p>
+                <img src="icons/wallet-icon1.svg" alt="incominng-wallet-icon">
+            </div>
+            <div class="info">
+                <h3 id="transactionAmount"></h3>
+                <p  class="date"></p>
+            </div>
+            <div class="complete">
+                <img class="check"src="icons/check.svg" alt="check">
+                <h3 class="p1">Transaction Complete!</h3>
+                <p class="p2">Tap to view this transaction</p>
+            </div>
+            <div class="user-info">
+                <p class="user-name-icon">SM</p>
+                <p class="from">From</p>
+                <p id="senderName" class="name"></p>
+                <p id="senderBank" class="bank-detail"></p>
+                <p  class="date to"></p>
+                <img class="wallet" src="icons/wallet-green.svg" alt="wallet-icon">
+                <p class="from">To</p>
+                <p id="recieverName" class="name"></p>
+                <p id="recieverWallet" class="bank-detail"></p>
+                <p  class="date to2"></p>
+                <p id="paymentMethod" class="payment-info"></p>
+                <a class="copy" href=""><img src="icons/copy.svg" alt="copy"></a>
+            </div>
+            <div class="btn">
+                <a class="btn-help"href="#">Help</a> 
+                <a class="btn-share" href="#">Share</a>
+            </div>
+        </div>
+    </section>
+    <!--My javascript file-->
+    <script src="javascript.js" charset="utf-8"></script>
+</body>
+</html>

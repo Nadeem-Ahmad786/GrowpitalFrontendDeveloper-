@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+}
+body{
+    background-color: rgba(34, 37, 49, 0.6);
+}
+nav{
+    background: #17171A; 
+    padding: 37px 25px;
+}
+.navbar-brand{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 140% */
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    background: linear-gradient(91.26deg, #72F6D1 0%, #07E57D 21.87%, #A0ED8D 55.73%, #FED365 81.77%, #FAA49E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.navigation-items{
+    display: inline;
+}
+.nav-item{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    /* identical to box height, or 210% */
+    padding: 0px 51px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.notification-user{
+    display: inline-block;
+    float: right;
+}
+
+.item1{
+    padding-left: 100px;;
+}
+.item4{
+    padding-right: 0px;
+}
+.user-icon{
+    margin-left: 42.79px;
+}
+
+#main{
+    
+    background-image: linear-gradient(rgba(34, 37, 49, 0.95), rgba(34, 37, 49, 0.95)), url("icons/background-image-i.png");
+    background-size: cover;
+    padding: 46px 0px 121px 0px;
+    height: 50rem;
+}
+.transaction-block{
+    padding: 7px 19px 35px 27px;
+    width: 505px;
+    margin:  auto;
+    background: #2A2D3C;
+    border: 3.56471px solid #2A2D3C;
+    box-shadow: 0px 0px 10.6941px rgba(0, 0, 0, 0.5);
+    border-radius: 11.8824px;
+}
+.close{
+    position: relative;
+    left: 483.99px;
+    top: 10px;
+}
+.first p{
+    color: #CCCDCC;
+    font-style: normal;
+    display: inline-block;
+    max-width: 180px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+.first img{
+    float: right;
+    padding-top: 3px;
+    padding-right: 71px;
+}
+.date{
+    color: #CCCDCC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: -0.01em;
+}
+h3{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+}
+.info{
+    margin-bottom: 19px;
+}
+.complete{
+    background: rgba(118, 226, 104, 0.25);
+    /* Bg-Blur/1 */
+    height: 78px;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 8px;
+}
+.check{
+    padding: 15px 12.99px 23.99px 20.99px;
+}
+.p1{
+    position: relative;
+    display: inline;
+    top: -45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.p2{
+    position: relative;
+    left: 79px;
+    top: -45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ABAFC4;
+}
+.user-info{
+    width: 459px;
+    height: 406px;
+    border: 0.5px solid #ABAFC4;
+    border-radius: 18px;
+    margin: 17px 19px 35px 0px;
+    padding: 19px 30px 13px 18px;
+}
+.user-name-icon{
+    float: right;
+    background-color: #242632;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 20.5128px;
+    padding: 8.97px;
+}
+.from{
+    display: inline;
+    color: #FEBF32;
+    font-weight: 550px;
+    font-size: 20px;
+}
+.name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.bank-detail{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 4px 0px;
+}
+.wallet{
+    float: right;
+}
+.to{
+    margin-bottom: 43px;
+}
+.to2{
+    margin-bottom: 38px;
+}
+.payment-info{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    display: inline;
+    margin-right: 10.95px;
+}
+.btn-help{
+    padding: 24px 78px;
+    background: #FEBF32;
+    border-radius: 8px;
+    color: #17171A;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 13px;
+}
+.btn-share{
+    background: #242632;
+    padding: 24px 78px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.btn{
+    padding: 35px 0px;
+    text-align: center;
+}
